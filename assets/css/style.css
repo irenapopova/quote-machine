@@ -1,0 +1,78 @@
+body {
+	background-image: url("../img/image1.jpg");
+	background-size: cover;
+	font-family: Garamond;
+	color: white;
+}
+#main {
+	text-align: center;
+}
+#main > * {
+	margin: 1%;
+	padding: 1%;
+}
+
+/* *** Header *** */
+h1 {
+	font-family: 'Fugaz One', cursive;
+	font-size: xx-large;
+	text-shadow: 5px 4px black, -1px -1px #444;
+}
+h2 {
+	font-family: 'Fugaz One', cursive;
+	font-size: large;
+	text-shadow: 1px 1px black;
+}
+p {
+	font-size: large;
+	text-shadow: 1px 1px black;
+}
+a {
+	text-decoration: underline;
+	color: #9f2902;
+}
+a:hover {
+	text-decoration: none;
+	color: red;
+}
+
+/* *** Quote-Machine *** */
+#quote-machine {
+	margin: 50px auto;
+	padding: 50px 40px;
+	max-width: 60%;
+	min-height: auto;
+	background-color: #9f2902;
+	border: 3px solid white;
+	border-radius: 5px;
+	font-family: Garamond;
+	box-shadow: 0 0 20px rgba(0,0,0,0.9);
+}
+#quote {
+	font-size: x-large;
+}
+#author {
+	font-size: medium;
+}
+
+/* *** Buttons *** */
+button {
+	margin: 0 auto;
+	border-radius: 5px;
+	font-family: Garamond;
+	font-size: large;
+	box-shadow: 0 0 10px rgba(0,0,0,0.6);
+	transition: all 0.2s ease;
+}
+button:hover {
+	background: #9f2902;
+	border-radius: 10px;
+	color: white;
+	box-shadow: 0 0 10px rgba(0,0,0,0.6);
+	transform: scale(1.1);
+}
+
+/* *** Footer *** */
+footer p {
+	font-size: medium;
+}
